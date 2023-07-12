@@ -5,6 +5,10 @@
   "main": "serverjs",
   "scripts": {
     "start": "nodemon src/server",
+    "addMigration": "node migration.js add migration",
+		"upMigration": "node migration.js up",
+		"downMigration": "node migration.js down",
+		"refreshMigration": "node migration.js refresh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
